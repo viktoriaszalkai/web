@@ -1,0 +1,15 @@
+nav, button, video, .ugras, details summary {
+    display: none !important;
+}
+body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+}
+.kontener {
+    max-width: 100%;
+    margin: 0;
+}
+img {
+    max-width: 250px;
+}

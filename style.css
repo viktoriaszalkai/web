@@ -1,0 +1,227 @@
+/* --- ALAP SZERKEZET --- */
+html,
+body {
+  height: 100%;
+  max-width: 80%;
+  margin: auto;
+  background-color: #000000;
+  color: black;
+}
+
+.oldal_keret {
+  min-height: 100vh;
+  background-color: white;
+  padding: 0 !important;
+}
+
+a,
+.nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.focim {
+  color: #fff2d5;
+  font-family: "Playfair Display", serif;
+  font-size: 90px;
+}
+
+.nav-link {
+  color: white !important;
+  margin: 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+/* --- SZERKEZETI ZÓNÁK --- */
+.fejlec_zona {
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fo_kontener {
+  min-height: 120vh;
+}
+
+.kozepso_szekcio,
+.also_szekcio {
+  min-height: 60vh;
+  margin: 0;
+}
+
+.bal_zona,
+.also_zona,
+.jobb_zona {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* --- EGYEDI OLDALAK --- */
+
+/* 1. RÓLAM (INDEX) */
+.index_1 {
+  background-image: url("kepek/hatter1.PNG");
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.index_2 {
+  background-color: #cb788a;
+  padding: 3%;
+  color: #5f0807;
+  font-size: 22px;
+}
+
+.index_3 {
+  background-image: url("kepek/kep1.jpg");
+}
+
+.index_4 {
+  background-color: #fff2d5;
+  padding: 10%;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* 2. PORTFÓLIÓ */
+.portfolio_1 {
+  background-image: url("kepek/hatter2.jpg");
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.portfolio_2 {
+  background-color: #fff2d5;
+  font-size: 18px;
+  padding: 3%;
+}
+
+.portfolio_3 {
+  color: #fff2d5;
+  background-color: #5f0807;
+  font-size: 18px;
+  padding: 3%;
+}
+
+.portfolio_4 {
+  background-image: url("kepek/hatter3.jpg");
+  color: #fff2d5;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 3%;
+  font-size: 18px;
+}
+
+.portfolio_5 {
+  background-color: #cb788a;
+  padding: 1rem !important;
+}
+
+.video_elem {
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.5rem;
+}
+
+.elte_link {
+  color: #fff2d5;
+}
+
+/* 3. KAPCSOLAT */
+.kapcsolat_1 {
+  background-color: #cb788a;
+}
+
+.kapcsolat_2 {
+  background-color: #fff2d5;
+}
+
+.kapcsolat_3 {
+  background-color: #cb788a;
+  font-size: 20px;
+}
+
+.kapcsolat_4 {
+  background-image: url("kepek/kep2.jpg");
+}
+
+.linkedin_link {
+  color: black;
+  text-transform: none;
+}
+
+/* --- ŰRLAP --- */
+#urlap_kontener {
+  color: black;
+  padding: 50px;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 2px solid #cb788a;
+}
+
+.gomb_kuldes,
+.gomb_torles {
+  background-color: transparent;
+  color: #cb788a;
+  border: 2px solid #cb788a;
+  font-weight: bold;
+}
+
+.gomb_kuldes:hover,
+.gomb_torles:hover {
+  background-color: #cb788a;
+  color: white;
+}
+
+footer{
+  background-color: #5f0807;
+  color: #fff2d5;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 767px) {
+  .focim {
+    font-size: 50px;
+  }
+  .nav-link {
+    font-size: 13px;
+  }
+  * {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 992px) {
+  html,
+  body {
+    max-width: 100%;
+  }
+
+  .fo_kontener {
+    min-height: 3cqb;
+    height: auto;
+  }
+
+  .kozepso_szekcio,
+  .also_szekcio {
+    min-height: 30vh;
+    height: auto;
+  }
+
+  .portfolio_2 {
+    font-size: 15px;
+  }
+}

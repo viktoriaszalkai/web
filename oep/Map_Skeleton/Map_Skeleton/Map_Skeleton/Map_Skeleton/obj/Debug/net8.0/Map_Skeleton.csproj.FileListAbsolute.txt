@@ -1,0 +1,14 @@
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\obj\Debug\net8.0\Map_Skeleton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\obj\Debug\net8.0\Map_Skeleton.AssemblyInfoInputs.cache
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\obj\Debug\net8.0\Map_Skeleton.AssemblyInfo.cs
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\obj\Debug\net8.0\Map_Skeleton.csproj.CoreCompileInputs.cache
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\bin\Debug\net8.0\Map_Skeleton.exe
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\bin\Debug\net8.0\Map_Skeleton.deps.json
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\bin\Debug\net8.0\Map_Skeleton.runtimeconfig.json
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\bin\Debug\net8.0\Map_Skeleton.dll
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\bin\Debug\net8.0\Map_Skeleton.pdb
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\obj\Debug\net8.0\Map_Skeleton.dll
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\obj\Debug\net8.0\refint\Map_Skeleton.dll
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\obj\Debug\net8.0\Map_Skeleton.pdb
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\obj\Debug\net8.0\Map_Skeleton.genruntimeconfig.cache
+C:\Users\uqczf9\Downloads\Map_Skeleton\Map_Skeleton\Map_Skeleton\obj\Debug\net8.0\ref\Map_Skeleton.dll
