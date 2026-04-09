@@ -1,3 +1,8 @@
+body.monokrom_m {
+  /* Teljesen fekete-fehérré teszi az oldalt és megdobja a kontrasztot */
+  filter: grayscale(100%) contrast(120%);
+}
+
 /* --- ALAP SZERKEZET --- */
 html,
 body {
@@ -46,12 +51,12 @@ h3 {
 }
 
 .fo_kontener {
-  min-height: 120vh;
+  min-height: 70vh;
 }
 
 .kozepso_szekcio,
 .also_szekcio {
-  min-height: 60vh;
+  min-height: 30vh;
   margin: 0;
 }
 
@@ -61,6 +66,11 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.thumbnail-img {
+  max-width: 100%; 
+  height: 100%;
 }
 
 /* --- EGYEDI OLDALAK --- */
@@ -77,10 +87,6 @@ h3 {
   padding: 3%;
   color: #5f0807;
   font-size: 22px;
-}
-
-.index_3 {
-  background-image: url("kepek/kep1.jpg");
 }
 
 .index_4 {
@@ -117,6 +123,9 @@ h3 {
   padding: 3%;
   font-size: 18px;
 }
+aside{
+  padding-top: 12%;
+}
 
 .portfolio_5 {
   background-color: #cb788a;
@@ -130,7 +139,7 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
-.elte_link {
+.link {
   color: #fff2d5;
 }
 
@@ -148,9 +157,6 @@ h3 {
   font-size: 20px;
 }
 
-.kapcsolat_4 {
-  background-image: url("kepek/kep2.jpg");
-}
 
 .linkedin_link {
   color: black;
@@ -189,6 +195,7 @@ footer{
   font-size: 18px;
   text-align: center;
   padding: 1rem;
+
 }
 
 /* --- RESPONSIVE --- */
@@ -197,11 +204,15 @@ footer{
     font-size: 50px;
   }
   .nav-link {
-    font-size: 10px;
+    font-size: 12px;
   }
   * {
     font-size: medium;
   }
+  .kapcsolat_3{
+    padding: 10px;
+  }
+ 
 }
 
 @media (max-width: 992px) {
@@ -210,18 +221,16 @@ footer{
     max-width: 100%;
   }
 
-  .fo_kontener {
-    min-height: 3cqb;
-    height: auto;
-  }
-
   .kozepso_szekcio,
   .also_szekcio {
-    min-height: 30vh;
+    min-height: 20vh;
     height: auto;
   }
 
   .portfolio_2 {
     font-size: 15px;
+  }
+  aside{
+    padding: 0px;
   }
 }

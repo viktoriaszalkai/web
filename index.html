@@ -1,51 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hu">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Szalkai Viktória portfólió</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/dealoras" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Pinyon+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container oldal_keret d-flex flex-column">
-    <header class="fejlec_zona index_1 d-flex justify-content-center align-items-center flex-column">
-      <nav class="nav">
-        <a class="nav-link" href="index.html">Rólam</a>
-        <a class="nav-link" href="portfolio.html">Portfólió</a>
-        <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
-      </nav>
-      <h1 class="focim">Szalkai Viktória</h1>
-    </header>
-
-    <main class="fo_kontener d-flex flex-column">
-      <div class="row g-0 kozepso_szekcio">
-        <div class="col-lg-6 bal_zona index_2 d-flex flex-column">
-          <section>
-            <h2>Szia!</h2>
-            <p>
-              Viki vagyok, az Eötvös Loránd Tudományegyetem Informatikus
-              hallgatójaként a célom, hogy ne csak "működő" kódot írjak, hanem
-              olyan digitális megoldásokat alkossak, amelyek igazán segítik a
-              felhasználókat a mindennapokban.
-            </p>
-          </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rólam - Szalkai Viktória portfólió</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/dealoras" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Pinyon+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container oldal_keret d-flex flex-column">
+      
+      <header
+        class="fejlec_zona index_1 d-flex justify-content-center align-items-center flex-column"
+      >
+        <nav class="nav">
+          <a class="nav-link" href="index.html">Rólam</a>
+          <a class="nav-link" href="portfolio.html">Portfólió</a>
+          <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+        </nav>
+        <h1 class="focim">Szalkai Viktória</h1>
+        <div class="mt-3">
+          <button onclick="monokrom()" class="btn btn-sm btn-outline-light">Monokróm stílus</button>
         </div>
-        <div class="col-lg-6 jobb_zona index_3 d-flex"></div>
-      </div>
-      <div class="also_szekcio also_zona index_4 d-flex justify-content-center align-items-center">
-        <h2>
-          Hiszek abban, hogy a logikus gondolkodás és a kreativitás kéz a
-          kézben jár, legyen szó egy projektről vagy egy új technológia
-          elsajátításáról.
-        </h2>
-      </div>
-    </main>
-  </div>
-  <footer >Szalkai Viktória - UQCZF9 <time>2026.04.09</time></footer>
-</body>
+      </header>
+
+      <main class="fo_kontener d-flex flex-column">
+        <div class="row g-0 kozepso_szekcio">   
+            <article class="col-lg-6 bal_zona index_2 d-flex flex-column">
+              <h2>Szia!</h2>
+              <p>
+                Viki vagyok, az Eötvös Loránd Tudományegyetem Informatikus
+                hallgatójaként a célom, hogy ne csak "működő" kódot írjak, hanem
+                olyan digitális megoldásokat alkossak, amelyek igazán segítik a
+                felhasználókat a mindennapokban.
+              </p>
+            </article>
+          <div class="col-lg-6 jobb_zona index_3 d-flex">
+            <a href="kepek/kep1.jpg" target="_blank">
+              <img src="kepek/kep1.jpg" class="thumbnail-img" alt="csíkos háttérkép" />
+            </a>
+          </div>
+        </div>
+        <div
+          class="also_szekcio also_zona index_4 d-flex justify-content-center align-items-center"
+        >
+          <h2>
+            Hiszek abban, hogy a logikus gondolkodás és a kreativitás kéz a
+            kézben jár, legyen szó egy projektről vagy egy új technológia
+            elsajátításáról.
+          </h2>
+        </div>
+      </main>
+    </div>
+    <footer>Szalkai Viktória - UQCZF9 <time>2026.04.09</time></footer>
+    <script>
+  function monokrom() {
+    document.body.classList.toggle('monokrom_m');
+  }
+</script>
+  </body>
 </html>
